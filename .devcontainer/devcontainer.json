@@ -1,0 +1,19 @@
+{
+    "name": "lichess-live-win-probability-tutorial",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": ".."
+    },
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "python.defaultInterpreterPath": "/workspaces/lichess-live-win-probability-tutorial/.venv/bin/python"
+        },
+        "extensions": ["ms-python.python", "charliermarsh.ruff", "GitHub.copilot"]
+      }
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "postCreateCommand": "uv venv && . .venv/bin/activate && uv pip install -r requirements.txt"
+}
