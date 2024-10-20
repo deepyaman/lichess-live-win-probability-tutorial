@@ -9,7 +9,7 @@
         "settings": {
           "python.defaultInterpreterPath": "/workspaces/lichess-live-win-probability-tutorial/.venv/bin/python"
         },
-        "extensions": ["ms-python.python", "charliermarsh.ruff", "GitHub.copilot"]
+        "extensions": ["ms-python.python", "charliermarsh.ruff", "GitHub.copilot", "ms-toolsai.jupyter", "donjayamanne.vscode-default-python-kernel"]
       }
     },
     "features": {

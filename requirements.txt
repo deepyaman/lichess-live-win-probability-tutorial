@@ -1,2 +1,3 @@
 chess
 ibis-framework[duckdb]
+ipykernel
