@@ -5,6 +5,9 @@
       "context": ".."
     },
     "customizations": {
+      "codespaces": {
+        "openFiles": ["00 - Welcome.ipynb"]
+      },
       "vscode": {
         "settings": {
           "python.defaultInterpreterPath": "/workspaces/lichess-live-win-probability-tutorial/.venv/bin/python"
