@@ -1,0 +1,1 @@
+is_tournament = games.event.contains("tournament")
