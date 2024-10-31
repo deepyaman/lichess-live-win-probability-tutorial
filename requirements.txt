@@ -36,6 +36,8 @@ ipython==8.28.0
     # via ipykernel
 jedi==0.19.1
     # via ipython
+joblib==1.4.2
+    # via scikit-learn
 jupyter-client==8.6.3
     # via ipykernel
 jupyter-core==5.7.2
@@ -59,6 +61,11 @@ numpy==2.1.2
     #   ibis-framework
     #   pandas
     #   pyarrow
+    #   scikit-learn
+    #   scipy
+    #   xgboost
+nvidia-nccl-cu12==2.23.4
+    # via xgboost
 packaging==24.1
     # via
     #   ibis-framework
@@ -110,6 +117,12 @@ pyzmq==26.2.0
     #   jupyter-client
 rich==13.9.2
     # via ibis-framework
+scikit-learn==1.5.2
+    # via xgboost
+scipy==1.14.1
+    # via
+    #   scikit-learn
+    #   xgboost
 six==1.16.0
     # via
     #   asttokens
@@ -118,6 +131,8 @@ sqlglot==25.20.2
     # via ibis-framework
 stack-data==0.6.3
     # via ipython
+threadpoolctl==3.5.0
+    # via scikit-learn
 toolz==0.12.1
     # via ibis-framework
 tornado==6.4.1
@@ -140,3 +155,5 @@ virtualenv==20.27.1
     # via pre-commit
 wcwidth==0.2.13
     # via prompt-toolkit
+xgboost==2.1.2
+    # via -r requirements.in
