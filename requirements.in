@@ -2,3 +2,4 @@ chess
 ibis-framework[duckdb]
 ibis-ml
 ipykernel
+pre-commit
