@@ -3,4 +3,4 @@ ibis-framework[duckdb]
 ibis-ml
 ipykernel
 pre-commit
-xgboost[scikit-learn]
+xgboost[plotting,scikit-learn]
