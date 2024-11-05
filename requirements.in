@@ -1,6 +1,7 @@
 chess
-ibis-framework[duckdb]
+ibis-framework[duckdb,trino]
 ibis-ml
 ipykernel
 pre-commit
+python-dotenv
 xgboost[plotting,scikit-learn]
