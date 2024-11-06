@@ -4,8 +4,6 @@ adbc-driver-manager==1.2.0
     # via adbc-driver-postgresql
 adbc-driver-postgresql==1.2.0
     # via letsql
-appnope==0.1.4
-    # via ipykernel
 asttokens==2.4.1
     # via stack-data
 atpublic==4.1.0
@@ -56,6 +54,8 @@ fsspec==2024.10.0
     # via dask
 graphviz==0.20.3
     # via xgboost
+greenlet==3.1.1
+    # via sqlalchemy
 ibis-framework==9.0.0
     # via
     #   -r requirements-letsql.in
@@ -115,6 +115,8 @@ numpy==1.26.4
     #   scikit-learn
     #   scipy
     #   xgboost
+nvidia-nccl-cu12==2.23.4
+    # via xgboost
 packaging==24.1
     # via
     #   dask
