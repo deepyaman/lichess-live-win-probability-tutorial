@@ -1,0 +1,8 @@
+chess
+ibis-framework[duckdb,trino]
+ibis-ml
+ipykernel
+letsql>=0.1.5
+pre-commit
+python-dotenv
+xgboost[plotting,scikit-learn]
