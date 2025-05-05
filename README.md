@@ -28,7 +28,7 @@ To follow along, [download and install Visual Studio Code for your platform](htt
 
    <img src="static/reopen-in-container.png" alt="Reopen the folder in a container" width="900px"/>
 
-6. Run `git pull` in your terminal to ensure that you have the latest code
+6. [Run `git pull` in your terminal](https://code.visualstudio.com/docs/terminal/getting-started#_run-your-first-command-in-the-terminal) to ensure that you have the latest code
 
    <img src="static/git-pull-vscode.png" alt="Fetch the latest code from GitHub" width="900px"/>
 
