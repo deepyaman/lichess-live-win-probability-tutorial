@@ -1,6 +1,38 @@
 # Welcome to the Ibis and IbisML tutorial!
 
-## Getting started
+You can either run everything on your local machine using Visual Studio Code or in the cloud using GitHub Codespaces. If you anticipate you won't have reliable internet (e.g. at PyCon), the Visual Studio Code option is the way to go.
+
+## Getting started using Visual Studio Code
+
+To follow along, [download and install Visual Studio Code for your platform](https://code.visualstudio.com/docs/setup/setup-overview#_set-up-vs-code-for-your-platform) and set up your workspace:
+
+1. Clone https://github.com/deepyaman/lichess-live-win-probability-tutorial
+
+   ```bash
+   git clone https://github.com/deepyaman/lichess-live-win-probability-tutorial.git
+   ```
+
+2. [Open the `lichess-live-win-probability-tutorial` folder](https://code.visualstudio.com/docs/getstarted/getting-started#_open-a-folder-in-vs-code)
+
+   <img src="static/open-folder.png" alt="Open the folder" width="900px"/>
+
+3. Click "Yes, I trust the authors" to enable all features
+
+   <img src="static/trust-authors.png" alt="Trust the authors" width="900px"/>
+
+4. Install the recommended 'Dev Containers' extension from Microsoft for the repository
+
+   <img src="static/install-dev-containers.png" alt="Install the recommended 'Dev Containers' extension" width="900px"/>
+
+5. Reopen the folder in a container
+
+   <img src="static/reopen-in-container.png" alt="Reopen the folder in a container" width="900px"/>
+
+6. Run `git pull` in your terminal to ensure that you have the latest code
+
+   <img src="static/git-pull-vscode.png" alt="Fetch the latest code from GitHub" width="900px"/>
+
+## Getting started using GitHub Codespaces
 
 To follow along, create a GitHub Codespace on https://github.com/deepyaman/lichess-live-win-probability-tutorial:
 
@@ -19,5 +51,3 @@ To follow along, create a GitHub Codespace on https://github.com/deepyaman/liche
 4. Run `git pull` in your terminal to ensure that you have the latest code
 
    <img src="static/git-pull.png" alt="Fetch the latest code from GitHub" width="900px"/>
-
-While it's possible to run everything on your local machine, we will not be able to debug issues outside Codespaces.
