@@ -1,5 +1,2 @@
-lichess_recipe = ml.Recipe(
-    ml.DropZeroVariance(ml.everything()),
-    ml.Drop(ml.string()),
-    ml.Cast(ml.everything(), "float64"),
-)
+is_tournament = games.event.contains("tournament")
+is_tournament.value_counts()
