@@ -10,3 +10,5 @@ expr = games_selected_columns.mutate(
         ),
     )
 ).order_by(_.winner_margin)
+
+expr
